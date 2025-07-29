@@ -1,0 +1,326 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Satoshi", sans-serif;
+    background-color: #686666;
+    
+}
+.container{
+    margin: 3.5rem;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    margin: 2rem;
+}
+
+ .logo{
+    height: 20px;
+ }
+ .menu{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+ }
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+.menu a{
+    text-decoration: none;
+}
+
+.section1{
+    height: 773px;
+    max-width: 1440px;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: auto;     
+    background-image: url(./images/Frame.png);
+
+}
+
+#overlay{
+    background-position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.section1 h1{
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 22rem 0;
+color: white;
+font-size: 3rem;
+}
+
+.section2{
+    display: flex;
+    margin-bottom: 3.5rem;
+    background-color: #C3C1C1;
+    
+}
+.content{
+    flex: 2;
+    padding-top: 5rem;
+    gap: 1.5rem;
+    
+}
+.content p{
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-left: 4.5rem;
+    line-height: 1.5;
+    
+}
+.profile{
+    padding-right: 2.5rem;
+    margin-top: 3.5rem;
+    padding-left: 4rem;
+    position: relative;
+    margin-bottom: 5rem;
+    padding-bottom: 3rem;
+    
+}
+.profile-image{
+    width: 75%;
+}
+
+.experience-year{
+    position: absolute;
+    bottom: 4rem;
+    right: 10.3rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #C3C1C1;
+    border-radius: 4px 0 0 4px;
+}
+
+.work-experience{
+    position: absolute;
+    right: 10.5rem;
+}
+.work-experience h2{
+    margin-left: 5rem;
+}
+.work-experience p{
+    padding-top: 1rem;
+    line-height: 2;
+}
+.offer{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 6rem;
+    color: #00559A;
+
+}
+.client1-name,
+.client2-name,
+.client3-name{
+    color: #00899A;
+}
+.stars{
+    color: #FFCE31;
+}
+
+.section3,
+.section4,
+.section5{
+  display: flex;  
+  margin: 2rem;
+  gap: 3.5rem;
+}
+
+.section6{
+    background-color: #ddfbfd;
+}
+.offer-benefits{
+    padding-left: 2.5rem;
+}
+.offer-benefits h2{
+    padding-bottom: 5px;
+}
+.offer-benefits p{
+    padding-bottom: 1rem;
+}
+.offer-benefits .underline{
+    width: 48%;
+    height:4px;
+    background-color: #00838f;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.offer-benefits ul{
+    padding-left: 1.5rem;
+   
+}
+.offer-benefits ul li{
+    margin-bottom: 10px;
+    line-height: 1.5;
+} 
+.offer-benefits .line{
+    width: 15%;
+    height:4px;
+    background-color: #343373;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.feedback-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 2rem 0 2rem;
+    gap: 1.5rem;
+    align-items: stretch;
+
+}
+.feedback{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.section6 h1{
+    text-align: center;
+    color: #00899A;
+    padding-top: 2.5rem;
+    
+}
+.section6 .under-line{
+    width: 12%;
+    height:4px;
+    background-color: #00899A;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32rem;
+}
+.Client-image{
+    position: relative;
+    top: 50px;
+    left: 35%;
+    width: 35%;  
+} 
+.client-feedback{
+    padding: 0 1rem 0 1.5rem;
+    border-radius: 10px;
+    border-style: solid;
+    border: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color: #FFFFFF; 
+    
+}
+.client-feedback p{
+    margin-top: 3.8rem;
+}
+.google-logo{
+    position: relative;
+    left: 75%;
+}
+
+.section7{
+    margin-top: 5rem;
+}
+.section7 h2{
+    padding-left: 40px;
+    color: #343373;
+}
+.contact-info{
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+    width: 100%;
+}
+.contact{
+    flex: 1;
+}
+.contact-form{
+    flex: 1;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+.contact-form textarea{
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 1.5rem;
+    color: #FFFFFF;
+    background-color: #343373;
+}
+
+.section7 h2{
+    font-size: 2.5rem;
+    color: #343373;
+}
+.contact-item span{
+    line-height: 2.5;
+    color: #343373;
+}
+.contact span{
+    color: #343373;
+}
+.address{
+    padding-top: 10px;
+}
+.address span{
+    color: #343373;
+}
+
+.icons{
+    padding-top: 15px;
+    color: #343373;
+}
+footer{
+    padding-bottom: 1rem;
+    padding-top: 5px;
+    padding-left: 40px;
+    color: #343373;
+}
+hr{
+    height: 5px;
+    background-color: rgb(229, 224, 224);
+}
